@@ -25,7 +25,7 @@ const MyStyle = makeStyles(() => ({
     width: '100%',
     backgroundColor : '#f5392c',
     color : 'white',
-    fontWeight: '700'
+    fontWeight: 'bolder'
   },
   formContainer: {
     background: "#f3f3f3",
@@ -41,9 +41,11 @@ const MyStyle = makeStyles(() => ({
     marginTop: "5%",
   },
   Datalist: {
-    background: "#f9f9f9",
+    background: "#dbd9d9",
     padding: "10px 20px",
     marginBottom: "4px",
+    fontWeight: 'bolder'
+
   },
   loadingWrapper: {
     display: "flex",
@@ -121,7 +123,7 @@ export default function Home() {
     <Container>
       <div className={classes.mainContainer}>
         <Box py={8}>
-          <Typography variant="h5">SERVERLESS GRAPHQL TODO APP</Typography>
+          <Typography variant="h3">Serverless-JAMStack-Todo-app</Typography>
         </Box>
         <div className={classes.formContainer}>
           <Box p={4}>
