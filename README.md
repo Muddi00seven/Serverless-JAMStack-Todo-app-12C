@@ -12,6 +12,9 @@ Note that this starter does not include any pages by default.
 This starter is meant as a minimal reproduction of a Gatsby project in order to facilitate recipe installation.
 
 ## 🚀 Quick start
+## gatbsy url
+
+https://5fa94a3f979f7dbdc03ae9ed--nifty-shannon-97b40d.netlify.app/
 
 1.  **Create a Gatsby site.**
 
