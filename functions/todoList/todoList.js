@@ -22,7 +22,9 @@ const typeDefs = gql`
 `;
 
 const client = new faunadb.Client({
-  secret: process.env.FAUNADB_ADMIN_SECRET,
+  // secret: process.env.FAUNADB_ADMIN_SECRET,
+  secret: "fnAD52S1RaACB4gvp1m5GEnre2BevPY1tDf7tN94",
+
 
 
 });
