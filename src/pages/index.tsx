@@ -21,7 +21,12 @@ const MyStyle = makeStyles(() => ({
     alignItems: "center",
     flexDirection: "column",
   },
-
+  taskbtn:{
+    width: '100%',
+    backgroundColor : '#f5392c',
+    color : 'white',
+    fontWeight: '700'
+  },
   formContainer: {
     background: "#f3f3f3",
     width: "100%",
@@ -132,7 +137,7 @@ export default function Home() {
                   required
                 />
               </Box>
-              <Button type="submit" variant="contained" color="primary">
+              <Button className={classes.taskbtn} type="submit" variant="contained" >
                 add task
               </Button>
             </form>
