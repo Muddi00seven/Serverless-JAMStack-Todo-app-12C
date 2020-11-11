@@ -32,12 +32,7 @@ const resolvers = {
   Query: {
     allTasks: async (root, args, context) => {
       try {
-        // const result = await client.query(
-        //   q.Map(
-        //     q.Paginate(q.Match(q.Index("all_tasks"))),
-        //     q.Lambda((x) => q.Get(x))
-        //   )
-        // );
+
         let result = await client.query(
           q.Map(
             q.Paginate(q.Documents(q.Collection("tasks"))),
